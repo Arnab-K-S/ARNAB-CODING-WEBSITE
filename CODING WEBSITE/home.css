@@ -121,10 +121,14 @@ nav {
 }
 
 
-
+.large{
+        font-family: 'Ubuntu',sans-serif;
+        font-size: 20vh;
+}
 
 .container {
-    display: flex;
+    display: flex-box;
+
     /* justify-content: center; */
     background-position: center;
     background-repeat: no-repeat;
@@ -133,7 +137,7 @@ nav {
     background-size: contain;
     background-attachment: fixed;
     min-width: 100%;
-    min-height: 200vh;
+    min-height: 100vh;
     background-color: #ffffff;
 }
 
