@@ -10,18 +10,18 @@ body {
 }
 
 nav {
-    display: flex;
+    /* display: flex; */
 }
 
 .menu {
-    margin: 5%;
-    margin-right: 15%;
+    /* margin: 5%; */
+    /* margin-right: 15%; */
     color: azure;
-    display: flex;
+    /* display: flex; */
 }
 
 .header {
-   background-image: linear-gradient(rgba(0, 0, 0, 0.932), rgba(76, 76, 76, 0.691)), url("Images/bg.webp");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.932), rgba(76, 76, 76, 0.691)), url("Images/bg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,11 +37,11 @@ nav {
 }
 
 .opt {
-    margin: 2%;
+    margin: 1%;
     cursor: pointer;
-    border: 50rem red;
-    float: left;
-    padding: 10%;
+    /* border: 50rem rgb(0, 0, 0); */
+    float: right;
+    padding: 1%;
     color: azure;
     border-radius: 25vh;
     border: 2px solid #ffffff;
@@ -49,7 +49,8 @@ nav {
 }
 
 .opt:hover {
-    box-shadow: 2% 20% 2% 2% rgb(0, 251, 255);
+    box-shadow: 10% 10% 200% rgb(255, 255, 255);
+    /* box-shadow: 2% 20% 2% 2% rgb(0, 251, 255); */
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     transition: 1s;
@@ -120,6 +121,11 @@ nav {
         font-size: 20vh;
         display: flex;
         flex-direction: column;
+        background-image: linear-gradient(rgb(4, 255, 0), rgb(21, 0, 255));
+        background-attachment: fixed;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
 }
 
 .container {
@@ -251,25 +257,49 @@ hr{
     background-size: contain;
     background-attachment: fixed;
     justify-content: center;
+    align-items: center;
     display: flex;
     min-height: 50vh;
 }
 
-img{
-    padding: 1%;
+img:hover{
+    background-color: aquamarine;
+    box-shadow: 0 0 100px rgb(0, 255, 221);
 }
+img{
+    border-radius: 40px;
+    padding: 0.1%;
+    height: 5%;
+    width: 5%;
+}
+
 #p{
 text-indent: 20%;
 }
 #d{
     text-indent: 50%;
+    }
     
-}
+
 #t{
     text-indent: 70%;
+  
+
 }
 
 
+@media only screen and (max-width: 559px) {
+    .webname{
+        font-size: 10vh;
+    }
+    .card,.front,.back{
+        width: 80%;
+        height: 30%;
+        margin: 1%;
+        overflow: scroll;
+    }
+    
+}
 @media only screen and (max-width: 840px) {
     div.con2 {
         flex-direction: column;
@@ -277,7 +307,7 @@ text-indent: 20%;
 
     div.large {
         font-family: 'Ubuntu', sans-serif;
-        font-size: 10vh;
+        font-size: 6vh;
         display: flex;
         flex-direction: column;
     }
@@ -296,4 +326,9 @@ text-indent: 20%;
     #t {
         text-indent: 0%;
     }
+}
+
+.icons{
+    width: 20vh;
+    margin: 1%;
 }
