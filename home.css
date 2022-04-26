@@ -265,14 +265,16 @@ hr{
 
 img:hover{
     background-color: aquamarine;
-    box-shadow: 0 0 100px rgb(0, 255, 221);
+    box-shadow: 0 0 15vh 5vh rgb(0, 255, 221);
 }
 img{
     border-radius: 40px;
     padding: 0.1%;
+    margin: 1%;
     height: 5%;
     width: 5%;
 }
+
 
 #p{
 text-indent: 20%;
