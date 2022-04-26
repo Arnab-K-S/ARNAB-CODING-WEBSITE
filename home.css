@@ -1,3 +1,4 @@
+
 * {
     padding: 0%;
     margin: 0%;
@@ -10,18 +11,11 @@ body {
 
 nav {
     display: flex;
-    /* align-items: flex-end; */
-    /* background-color: black; */
-    /* padding: 2%; */
 }
 
 .menu {
     margin: 5%;
-    /* align-self:flex-end; */
     margin-right: 15%;
-    /* list-style-type: none; */
-    /* float: right; */
-    /* overflow: scroll; */
     color: azure;
     display: flex;
 }
@@ -124,6 +118,8 @@ nav {
 .large{
         font-family: 'Ubuntu',sans-serif;
         font-size: 20vh;
+        display: flex;
+        flex-direction: column;
 }
 
 .container {
@@ -136,7 +132,7 @@ nav {
     /* flex-flow: column-reverse; */
     background-size: contain;
     background-attachment: fixed;
-    min-width: 100%;
+    /* min-width: 100%; */
     min-height: 100vh;
     background-color: #ffffff;
 }
@@ -146,7 +142,7 @@ nav {
     /* min-width: 50%; */
     align-items: center;
     min-height: 100vh;
-    min-width: 100%;
+    /* min-width: 100%; */
     justify-content: space-around;
     background-image: linear-gradient(rgba(0, 0, 0, 0.932), rgba(67, 67, 67, 0.691)), url("Images/bg.webp");
     background-attachment: fixed;
@@ -166,7 +162,7 @@ hr{
     display: flex;
     margin: 1%;
     align-items: center;
-    width: 50vh;
+    width: 50vh; 
     height: 70vh;
     border-radius: 10vh;
     /* background-color: rgba(98, 0, 255, 0.461); */
@@ -262,4 +258,42 @@ hr{
 img{
     padding: 1%;
 }
+#p{
+text-indent: 20%;
+}
+#d{
+    text-indent: 50%;
+    
+}
+#t{
+    text-indent: 70%;
+}
 
+
+@media only screen and (max-width: 840px) {
+    div.con2 {
+        flex-direction: column;
+    }
+
+    div.large {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 10vh;
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        width: 15%;
+    }
+    #p {
+        text-indent: 0%;
+    }
+    
+    #d {
+        text-indent: 0%;
+    
+    }
+    
+    #t {
+        text-indent: 0%;
+    }
+}
