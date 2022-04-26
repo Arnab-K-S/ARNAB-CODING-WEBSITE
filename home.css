@@ -21,7 +21,7 @@ nav {
 }
 
 .header {
-    background-image: linear-gradient(rgba(40, 0, 109, 0.932), rgba(29, 0, 116, 0.691)), url("Images/bg.webp");
+   background-image: linear-gradient(rgba(0, 0, 0, 0.932), rgba(76, 76, 76, 0.691)), url("Images/bg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
