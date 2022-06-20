@@ -395,7 +395,7 @@ a img{
         flex-direction: column;
     }
 
-    img {
+    img ,a{
         width: 15%;
     }
 
